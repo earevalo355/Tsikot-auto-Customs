@@ -1,0 +1,45 @@
+
+.container-fluid .main {
+	margin: auto;
+	padding: 20px;
+}
+
+.navbar .container{
+	display: flex;
+	justify-content: center;
+}
+.container .bussiness {
+	font-family: 'Exo 2', sans-serif;
+	
+}
+
+.navbar-brand {
+	font-family: 'Righteous', cursive;
+}
+
+.brand.text-left h1 {
+	font-family: 'Permanent Marker', cursive;
+	font-size: 5rem;
+	color:  #ff000d;
+}
+
+.page-header .title {
+	font-family: 'Righteous', cursive;
+}
+
+.col-lg-6 h1{
+	font-family: 'Righteous', cursive;
+}
+.d-block{
+	max-height: 300px;
+}
+
+
+#carouselExampleIndicators {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+
+
