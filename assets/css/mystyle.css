@@ -5,6 +5,10 @@
 	padding: 20px;
 }
 
+.img.img-raised {
+	max-width: 300px;
+}
+
 .navbar .container{
 	display: flex;
 	justify-content: center;
@@ -40,6 +44,17 @@
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+
+
+.hovereffect:hover img {
+-ms-transform:scale(2.5);
+-webkit-transform:scale(2.5);
+transform:scale(2.5);
+}
+
+
+
+
 
 
 
