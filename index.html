@@ -14,7 +14,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Righteous&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
 </head>
-<body id="particles-js">
+<body >
 <nav class="navbar navbar-transparent navbar-color-on-scroll fixed-top navbar-expand-lg" color-on-scroll="100" id="sectionsNav">
 	<div class="container d-flex justify-content-center">
 		<div class="navbar-translate">
@@ -77,17 +77,7 @@
 		</div>
 	</div>
 </nav>
-<div class="page-header" style="background-image: url('assets/img/hd_car.jpg')">
-	<div class="container">
-		<div class="row">
-			<div class="col-lg-8">
-				<div class="brand text-left">
-					<h1>Tsikot Auto Customs</h1>
-					<h3 class="title text-left">Shaping custom Car culture since 1993.</h3>
-				</div>
-			</div>
-		</div>
-	</div>
+<div class="page-header" id="particles-js" style="background-image: url('assets/img/hd_car.jpg')">
 </div>
 
 
@@ -146,6 +136,8 @@
 	<script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
 	<script src="assets/js/plugins/moment.min.js"></script>
 	<script src="assets/js/plugins/justified.js"></script>
+	<script src="assets/js/plugins/particles.js"></script>
+	<script src="assets/js/plugins/app.js">
 	<!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
 	<script src="assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
 	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
@@ -156,13 +148,10 @@
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 	<!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
 	<script src="assets/js/material-kit.js?v=2.0.6" type="text/javascript"></script>
-
 	<script type="text/javascript">
 		$("#grid-container").justifiedGallery();
 	</script>
-	<script>
 		
-		particlesJS("particles-js", {"particles":{"number":{"value":183,"density":{"enable":true,"value_area":3607.6771369474263}},"color":{"value":"#d4531d"},"shape":{"type":"circle","stroke":{"width":3,"color":"#4a0404"},"polygon":{"nb_sides":9},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.9941154777366241,"random":true,"anim":{"enable":false,"speed":0.24362316369040352,"opacity_min":0.03248308849205381,"sync":false}},"size":{"value":4.008530152163807,"random":true,"anim":{"enable":true,"speed":2.4362316369040355,"size_min":3.248308849205381,"sync":true}},"line_linked":{"enable":true,"distance":142.0465754938091,"color":"#15574f","opacity":0.978081357127969,"width":1.736124811591},"move":{"enable":true,"speed":3.206824121731046,"direction":"none","random":true,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":561.194221302933}}},"interactivity":{"detect_on":"window","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":false,"mode":"bubble"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":137.61727825404154,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true})
 	</script>
 </body>
 </html>
